@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+.news-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 300px;
+}
+
+@media all and (max-width: 550px) {
+    .news-container {
+        grid-template-columns: 1fr;
+    }
+}
