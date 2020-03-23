@@ -118,7 +118,7 @@ function renderArticlis(articles) {
 
     articles.forEach((article, index, array) => {
         for (let key in article) {
-            if (!article[key] && article.author && article.content) array.splice(index, 1);
+            if (!article[key]) array.splice(index, 1);
         }
     });
 
