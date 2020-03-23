@@ -1,6 +1,3 @@
-let ads = document.querySelector('div a[title]');
-ads = ads.parentElement;
-ads.remove();
 
 // * variables
 const http = getAjax();
